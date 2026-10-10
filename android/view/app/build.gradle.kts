@@ -31,8 +31,14 @@ android {
 }
 
 dependencies {
+    // AndroidX
     implementation(libs.androidx.activity)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.core)
+
+    // Leak Canary
+    debugImplementation(libs.leakcanary)
+
+    // Material Design
     implementation(libs.material)
 }
