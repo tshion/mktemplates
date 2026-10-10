@@ -1,6 +1,7 @@
 package io.github.tshion.androidview
 
 import android.os.StrictMode
+import timber.log.Timber
 
 class DebugApplication : MainApplication() {
 
@@ -18,6 +19,7 @@ class DebugApplication : MainApplication() {
                 .penaltyLog()
                 .build(),
         )
+        Timber.plant(Timber.DebugTree())
         super.onCreate()
     }
 }

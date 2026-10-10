@@ -41,4 +41,7 @@ dependencies {
 
     // Material Design
     implementation(libs.material)
+
+    // Timber
+    implementation(libs.timber)
 }
