@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AndroidView"
+rootProject.name = "AndroidViewTemplate"
 include(":app")
